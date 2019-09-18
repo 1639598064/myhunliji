@@ -1,0 +1,50 @@
+.contentBox{
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap; */
+    column-count: 2;
+}
+.content{
+    width: 50%;
+}
+.content>img{
+    width: 1.6rem;
+}
+.content>h4{
+    width: 1.6rem;
+    margin-top:10px;
+    font-size: .14rem;
+    font-weight:600;
+}
+.content>span{
+    font-size:.2rem;
+    color:red;
+}
+.content>del{
+    font-size: .14rem;
+    margin-left:.14rem; 
+}
+.content>p{
+    width: 1rem;
+    margin:10px 0 12px 1.2rem;
+   color:#aaa;
+}
+.content>p>span{
+    margin-left:2px;
+    font-size: .12rem;
+}
+.content:nth-child(3){
+    font-size:0px;
+}
+.content:nth-child(3)>del{
+    display: inline-block;
+    height:0;
+}
+.content:nth-child(3)>span{
+    display: inline-block;
+    height:0;
+}
+.content:nth-child(3)>h4{
+   margin:0;
+}
+

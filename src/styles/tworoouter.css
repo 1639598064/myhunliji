@@ -1,0 +1,30 @@
+.twoBox{
+    /* height:.5rem; */
+}
+.tworouter{
+    width: 100%;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    white-space: nowrap;
+    overflow-x: auto;
+    margin:10px 0;
+    /* align-items: flex-start; */
+}
+.twoBox>.tworouter>a{
+    color:#343434;
+    display: inline-block;
+    font-size: .18rem;
+    margin-right:.27rem; 
+    font-weight: 600;
+    /* flex-shrink: 0; */
+}
+.twoBox>.tworouter>.onea{
+    color:#000;
+    font-size:.24rem;
+    margin-top:-6px;
+}
+.twoBox>.tworouter>.twoa{
+    color:#000;
+    font-size:.24rem;
+    margin-top:-6px;
+}

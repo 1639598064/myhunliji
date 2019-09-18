@@ -1,0 +1,28 @@
+.bom{
+    width: 100%;
+    height:.7rem;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+ }
+a{
+    color:#a3a3a3;
+    font-size:.14rem;
+    text-align: center;
+}
+.yanse{
+    color:#f73244;
+}
+.yanse:hover{
+    color:#f73244;
+}
+.icons_router{
+    font-size:.3rem;
+    margin:0;
+}
+p{
+    margin:0;
+}

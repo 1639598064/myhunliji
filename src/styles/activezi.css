@@ -1,0 +1,12 @@
+.activeBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.active{
+    width: 50%;
+}
+.active>img{
+    width: 1.68rem;
+    height:1.18rem; 
+}
